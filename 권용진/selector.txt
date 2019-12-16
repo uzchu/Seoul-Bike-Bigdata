@@ -1,0 +1,20 @@
+(1) 처음 뜨는 팝업 제거
+#intro_popup_close > span
+
+(2) 길찾기 클릭
+body > app > layout > div > div.sidebar > navbar > perfect-scrollbar > div > div.ps-content > div > ul > li:nth-child(3) > a
+
+(3) 자전거 클릭
+body > app > layout > div > div.container > div.router-output > shrinkable-layout > directions-layout > directions-result > div.search_area > ul > li.item_tab.active > a
+
+(4) 출발지 클릭
+body > app > layout > div > div.container > div.router-output > shrinkable-layout > directions-layout > directions-result > div.search_area > directions-search > div.search_box > directions-search-box.item_search.start.droppable > div > div > div.input_box > input
+
+(5) 도착지 클릭
+body > app > layout > div > div.container > div.router-output > shrinkable-layout > directions-layout > directions-result > div.search_area > directions-search > div.search_box > directions-search-box:nth-child(2) > div > div > div.input_box > input
+
+(6) 길찾기 클릭
+body > app > layout > div > div.container > div.router-output > shrinkable-layout > directions-layout > directions-result > div > directions-search > div.btn_box > button.btn.btn_direction.active
+
+경로 표시 선택자
+#baseMap > div > div.leaflet-pane.leaflet-map-pane > div.leaflet-pane.leaflet-tf-custom-geometry-pane > svg > g > path.directions-line-normal-highlight.leaflet-interactive
