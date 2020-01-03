@@ -1,4 +1,4 @@
-# Seoul-bike-Bigdata
+# Seoul-Bike-Bigdata
 :bike: Data Analysis and Visualization in R
 
 멀티캠퍼스_세미프로젝트 (2019.11.29 ~ present)
